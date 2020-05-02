@@ -67,3 +67,6 @@ output "website_hostname_dev" {
   value       = "${azurerm_app_service.spacegame_dev.default_site_hostname}"
   description = "The hostname of the website in the dev environment"
 }
+provider "azurerm" {
+  features {}
+}
